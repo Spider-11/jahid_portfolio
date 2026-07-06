@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mohd Jahid - UX-focused Flutter Developer portfolio with mobile app projects, skills, and experience." />
+  <title>Mohd Jahid | Flutter Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <nav class="nav-shell" aria-label="Primary navigation">
+      <a href="#home" class="brand" aria-label="Go to home">
+        <span class="brand-mark">MJ</span>
+        <span>
+          <strong>MOHD JAHID</strong>
+          <small>UX-focused Flutter Developer</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#projects">Projects</a>
+        <a href="#process">UX Process</a>
+        <a href="#skills">Skills</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <a class="nav-cta" href="#contact">Hire Me</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-bg" aria-hidden="true">
+        <span class="orb orb-one"></span>
+        <span class="orb orb-two"></span>
+        <span class="orb orb-three"></span>
+      </div>
+
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <span class="eyebrow">Available for Flutter projects</span>
+          <h1>Flutter Developer building <span class="gradient-text">usable mobile apps,</span> not just screens.</h1>
+          <p>
+            I’m Mohd Jahid, a Flutter developer focused on clean user flows, responsive UI,
+            REST APIs, Firebase, Google Maps, payments, push notifications, and Android/iOS deployment.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn primary">View Projects</a>
+            <a href="assets/MOHD_JAHID.pdf" download class="btn secondary">Download CV</a>
+            <a href="https://github.com/Spider-11/" target="_blank" rel="noopener" class="btn ghost">GitHub</a>
+          </div>
+
+          <div class="trust-row" aria-label="Portfolio highlights">
+            <div><strong class="counter" data-target="4" data-suffix="+">0</strong><span>Real app projects</span></div>
+            <div><strong>Android + iOS</strong><span>Deployment experience</span></div>
+            <div><strong>UX + UI</strong><span>Flow-first development</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal delay-1" aria-label="Mobile app mockup visual">
+          <div class="phone phone-back">
+            <div class="notch"></div>
+            <div class="screen-card purple"></div>
+            <div class="screen-line"></div>
+            <div class="screen-line short"></div>
+            <div class="mini-grid"><span></span><span></span><span></span><span></span></div>
+          </div>
+
+          <div class="phone phone-main">
+            <div class="notch"></div>
+            <div class="app-top">
+              <span>UX Flow</span>
+              <strong>Ride Booking</strong>
+            </div>
+            <button class="mock-button">Start Flow</button>
+            <div class="flow-list">
+              <span>Choose location</span>
+              <span>Estimate fare</span>
+              <span>Track driver</span>
+            </div>
+            <div class="mini-grid"><span></span><span></span><span></span><span></span></div>
+          </div>
+
+          <div class="floating-card card-one">
+            <strong>REST API</strong>
+            <span>Dynamic app data</span>
+          </div>
+          <div class="floating-card card-two">
+            <strong>BLoC + GetX</strong>
+            <span>Scalable state</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section proof-section">
+      <div class="container proof-grid">
+        <article class="proof-card reveal">
+          <span class="proof-icon">↗</span>
+          <h3>Live Apps</h3>
+          <p>Worked on apps published on Play Store and App Store.</p>
+        </article>
+        <article class="proof-card reveal delay-1">
+          <span class="proof-icon">⚙</span>
+          <h3>Production Features</h3>
+          <p>Authentication, APIs, maps, push notifications, payments and dashboards.</p>
+        </article>
+        <article class="proof-card reveal delay-2">
+          <span class="proof-icon">◎</span>
+          <h3>UX Thinking</h3>
+          <p>I focus on user journeys, empty states, errors, loading and smooth task completion.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="eyebrow">Selected Projects</span>
+          <h2>Mobile products with real flows and real integrations</h2>
+          <p>Each project is presented with the user goal, my contribution, and technical stack.</p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card reveal" data-project="darzi">
+            <div class="project-media tailor">
+              <img src="assets/darzi/WhatsApp%20Image%202026-07-06%20at%204.06.46%20PM.jpeg" alt="DARZI add fabric screenshot" loading="lazy" />
+              <span class="project-label">DARZI</span>
+            </div>
+            <div class="project-content">
+              <span class="status">Live on Play Store</span>
+              <h3>DARZI — Tailor Booking Application</h3>
+              <p>Help users browse products, manage cart, place orders, pay securely and chat with vendors.</p>
+              <div class="tags"><span>Flutter</span><span>Razorpay</span><span>Chat</span><span>Auth</span></div>
+              <div class="project-actions">
+                <a class="btn ghost small" href="https://play.google.com/store/apps/details?id=com.mannytech.darzi" target="_blank" rel="noopener">Live link</a>
+                <button class="case-btn" type="button">View Case Study</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal delay-1" data-project="frequip">
+            <div class="project-media furniture">
+              <img src="assets/frequip/WhatsApp%20Image%202026-07-06%20at%204.17.02%20PM.jpeg" alt="FREQUIP app login screen" loading="lazy" />
+              <span class="project-label">FREQUIP</span>
+            </div>
+            <div class="project-content">
+              <span class="status">Live on Play Store + App Store</span>
+              <h3>FREQUIP — Furniture Rental App</h3>
+              <p>Rental app with subscription details, rental status overview, invoice detail and upfront payment flows.</p>
+              <div class="tags"><span>Flutter</span><span>Rental</span><span>Payments</span><span>Billing</span></div>
+              <div class="project-actions">
+                <a class="btn ghost small" href="https://play.google.com/store/apps/details?id=com.freequip.furniture" target="_blank" rel="noopener">Android</a>
+                <a class="btn ghost small" href="https://apps.apple.com/in/app/frequip/id6755174916" target="_blank" rel="noopener">iOS</a>
+                <button class="case-btn" type="button">View Case Study</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal delay-2" data-project="jalpay">
+            <div class="project-media billing">
+              <img src="assets/jalpay/WhatsApp%20Image%202026-07-06%20at%204.16.40%20PM.jpeg" alt="JalPay water billing app login screen" loading="lazy" />
+              <span class="project-label">JALPAY</span>
+            </div>
+            <div class="project-content">
+              <span class="status">Live on Play Store</span>
+              <h3>JalPay — Water Billing App</h3>
+              <p>Built digital bill generation, payment tracking, consumer search, billing history and role-based login.</p>
+              <div class="tags"><span>Flutter</span><span>Billing</span><span>Roles</span><span>Search</span></div>
+              <div class="project-actions">
+                <a class="btn ghost small" href="https://play.google.com/store/apps/details?id=com.security.hrms" target="_blank" rel="noopener">Live link</a>
+                <button class="case-btn" type="button">View Case Study</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal delay-3" data-project="trollx">
+            <div class="project-media ride">
+              <img src="assets/trollx/Preview%207.png" alt="TrollX ride booking screenshot" loading="lazy" />
+              <span class="project-label">TROLLX</span>
+            </div>
+            <div class="project-content">
+              <span class="status">TestFlight / UAT</span>
+              <h3>TrollX — Ride-Hailing Platform</h3>
+              <p>Customer, Driver and Fleet apps with ride booking, live tracking, wallet, earnings and dashboards.</p>
+              <div class="tags"><span>Flutter</span><span>Maps</span><span>GetX</span><span>Wallet</span></div>
+              <div class="project-actions">
+                <a class="btn ghost small disabled" href="#" aria-disabled="true">Live link (soon)</a>
+                <button class="case-btn" type="button">View Case Study</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="process">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="eyebrow">UX Process</span>
+          <h2>How I improve the app experience before development</h2>
+          <p>This process keeps the product simple for users and easier to build for developers.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-step reveal">
+            <span>01</span>
+            <h3>Understand task</h3>
+            <p>Clarify users, roles, business rules, screens and main actions.</p>
+          </div>
+          <div class="timeline-step reveal delay-1">
+            <span>02</span>
+            <h3>Map user flow</h3>
+            <p>Reduce confusion by defining the shortest path to complete a task.</p>
+          </div>
+          <div class="timeline-step reveal delay-2">
+            <span>03</span>
+            <h3>Design states</h3>
+            <p>Plan loading, empty, error, success, disabled and active states.</p>
+          </div>
+          <div class="timeline-step reveal delay-3">
+            <span>04</span>
+            <h3>Build in Flutter</h3>
+            <p>Create reusable widgets, scalable state management and API-ready screens.</p>
+          </div>
+          <div class="timeline-step reveal delay-4">
+            <span>05</span>
+            <h3>Test & deploy</h3>
+            <p>Check performance, responsiveness, release builds and store readiness.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="eyebrow">Skills</span>
+          <h2>Practical skills for production mobile apps</h2>
+          <p>Focused on the skills needed to ship real Android and iOS applications.</p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal" data-score="90">
+            <div class="skill-ring">
+              <svg viewBox="0 0 120 120">
+                <circle class="ring-track" cx="60" cy="60" r="52"/>
+                <circle class="ring-fill" cx="60" cy="60" r="52"/>
+              </svg>
+              <div class="skill-score"><span class="score-value">0</span><small class="score-max">/ 100</small></div>
+            </div>
+            <strong>Flutter & Dart</strong>
+            <span>Cross-platform Android/iOS apps</span>
+          </article>
+
+          <article class="skill-card reveal" data-score="82">
+            <div class="skill-ring">
+              <svg viewBox="0 0 120 120">
+                <circle class="ring-track" cx="60" cy="60" r="52"/>
+                <circle class="ring-fill" cx="60" cy="60" r="52"/>
+              </svg>
+              <div class="skill-score"><span class="score-value">0</span><small class="score-max">/ 100</small></div>
+            </div>
+            <strong>BLoC & GetX</strong>
+            <span>Scalable state management</span>
+          </article>
+
+          <article class="skill-card reveal" data-score="85">
+            <div class="skill-ring">
+              <svg viewBox="0 0 120 120">
+                <circle class="ring-track" cx="60" cy="60" r="52"/>
+                <circle class="ring-fill" cx="60" cy="60" r="52"/>
+              </svg>
+              <div class="skill-score"><span class="score-value">0</span><small class="score-max">/ 100</small></div>
+            </div>
+            <strong>REST APIs</strong>
+            <span>Dynamic data and backend integration</span>
+          </article>
+
+          <article class="skill-card reveal" data-score="78">
+            <div class="skill-ring">
+              <svg viewBox="0 0 120 120">
+                <circle class="ring-track" cx="60" cy="60" r="52"/>
+                <circle class="ring-fill" cx="60" cy="60" r="52"/>
+              </svg>
+              <div class="skill-score"><span class="score-value">0</span><small class="score-max">/ 100</small></div>
+            </div>
+            <strong>Firebase FCM</strong>
+            <span>Push notifications in app states</span>
+          </article>
+
+          <article class="skill-card reveal" data-score="76">
+            <div class="skill-ring">
+              <svg viewBox="0 0 120 120">
+                <circle class="ring-track" cx="60" cy="60" r="52"/>
+                <circle class="ring-fill" cx="60" cy="60" r="52"/>
+              </svg>
+              <div class="skill-score"><span class="score-value">0</span><small class="score-max">/ 100</small></div>
+            </div>
+            <strong>Google Maps</strong>
+            <span>Live tracking, routes and search</span>
+          </article>
+
+          <article class="skill-card reveal" data-score="74">
+            <div class="skill-ring">
+              <svg viewBox="0 0 120 120">
+                <circle class="ring-track" cx="60" cy="60" r="52"/>
+                <circle class="ring-fill" cx="60" cy="60" r="52"/>
+              </svg>
+              <div class="skill-score"><span class="score-value">0</span><small class="score-max">/ 100</small></div>
+            </div>
+            <strong>Payments</strong>
+            <span>Razorpay, wallet and checkout flows</span>
+          </article>
+
+          <article class="skill-card reveal" data-score="80">
+            <div class="skill-ring">
+              <svg viewBox="0 0 120 120">
+                <circle class="ring-track" cx="60" cy="60" r="52"/>
+                <circle class="ring-fill" cx="60" cy="60" r="52"/>
+              </svg>
+              <div class="skill-score"><span class="score-value">0</span><small class="score-max">/ 100</small></div>
+            </div>
+            <strong>Git & GitHub</strong>
+            <span>Version control and collaboration</span>
+          </article>
+
+          <article class="skill-card reveal" data-score="78">
+            <div class="skill-ring">
+              <svg viewBox="0 0 120 120">
+                <circle class="ring-track" cx="60" cy="60" r="52"/>
+                <circle class="ring-fill" cx="60" cy="60" r="52"/>
+              </svg>
+              <div class="skill-score"><span class="score-value">0</span><small class="score-max">/ 100</small></div>
+            </div>
+            <strong>Deployment</strong>
+            <span>Play Store and App Store release support</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section resume-section" id="resume">
+      <div class="container resume-card reveal">
+        <div>
+          <span class="eyebrow">Resume Snapshot</span>
+          <h2>Flutter Developer at Bringletech</h2>
+          <p class="resume-meta">05/2025 – Present · Mohali, India</p>
+          <p>
+            Developed scalable cross-platform apps, reusable UI components, REST API integrations,
+            Google Maps features, GetX/BLoC architecture and Firebase Cloud Messaging.
+          </p>
+          <p class="resume-meta">Education: BCA, PGGC-11 Chandigarh, Panjab University · 2025</p>
+          <div class="resume-actions">
+            <a href="assets/MOHD_JAHID.pdf" download class="btn primary">Download CV</a>
+            <a href="https://www.linkedin.com/in/mohd-jahid-aa11472b5/" target="_blank" rel="noopener" class="btn secondary">LinkedIn</a>
+            <a href="https://github.com/Spider-11/" target="_blank" rel="noopener" class="btn ghost">GitHub</a>
+          </div>
+        </div>
+
+        <div class="avatar-card" aria-label="Profile placeholder">
+          <img class="avatar-img" src="https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&w=600&q=80" alt="Profile photo placeholder" loading="lazy" />
+          <div class="avatar-text">
+            <span>MJ</span>
+            <p>Replace this with your photo later</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container contact-card reveal">
+        <div class="contact-copy">
+          <span class="eyebrow">Contact</span>
+          <h2>Let’s build a mobile app with clear UX.</h2>
+          <p>Share your app idea, role, project type, required APIs, budget or timeline.</p>
+
+          <div class="contact-links">
+            <a href="mailto:mohdjahid2307@gmail.com">mohdjahid2307@gmail.com</a>
+            <a href="tel:+917527887270">+91 7527887270</a>
+            <a href="https://github.com/Spider-11/" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://www.linkedin.com/in/mohd-jahid-aa11472b5/" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="you@example.com" required />
+          </label>
+          <label>
+            Project / Role Type
+            <select name="type">
+              <option>Flutter app project</option>
+              <option>Full-time Flutter role</option>
+              <option>Freelance mobile app</option>
+              <option>UI/UX + Flutter work</option>
+            </select>
+          </label>
+          <label>
+            Message
+            <textarea name="message" placeholder="Tell me about your project..." required></textarea>
+          </label>
+          <button type="submit" class="btn primary" id="submitBtn">Send Message</button>
+          <p class="form-note" id="formStatus"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a href="#home">Back to top ↑</a>
+    <p>© 2026 Mohd Jahid — UX-focused Flutter Developer</p>
+  </footer>
+
+  <div class="modal" id="caseModal" aria-hidden="true" role="dialog" aria-labelledby="modalTitle">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-panel">
+      <button class="modal-close" data-close-modal aria-label="Close case study">×</button>
+      <div class="modal-header">
+        <span class="eyebrow" id="modalStatus">Case Study</span>
+        <h2 id="modalTitle">Project title</h2>
+        <p id="modalGoal"></p>
+      </div>
+      <div class="modal-grid">
+        <div class="modal-card">
+          <h3>My contribution</h3>
+          <p id="modalContribution"></p>
+        </div>
+        <div class="modal-card">
+          <h3>UX focus</h3>
+          <p id="modalUx"></p>
+        </div>
+      </div>
+      <div class="tags" id="modalTags"></div>
+      <div class="case-gallery-shell">
+        <h3>Screenshots</h3>
+        <p class="gallery-hint">Click on any image to view it in full size.</p>
+        <div class="case-gallery" id="modalGallery"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Lightbox Modal -->
+  <div class="lightbox" id="lightboxModal" aria-hidden="true" role="dialog">
+    <div class="lightbox-backdrop" id="closeLightboxBtn"></div>
+    <div class="lightbox-content">
+      <button class="lightbox-close" id="lightboxCloseBtn" aria-label="Close full size view">×</button>
+      <img id="lightboxImage" src="" alt="Full size screenshot" />
+    </div>
+  </div>
+
+  <!-- EmailJS Integration -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function() {
+      emailjs.init({
+        publicKey: "YviwaZg2p9l1jvEiK",
+      });
+    })();
+  </script>
+
+  <script src="script.js"></script>
+</body>
+</html>
