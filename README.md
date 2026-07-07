@@ -1,31 +1,35 @@
-# Mohd Jahid Portfolio Website
+# Mohd Jahid - Personal Portfolio Website 🚀
 
-A premium dark theme, UX-focused personal portfolio website for Mohd Jahid, Flutter Developer.
+Welcome to the repository of my personal portfolio website! This is a premium dark theme, UX-focused website built to showcase my projects, skills, and experience as a Flutter Developer.
+
+🔗 **Live Preview:** [https://spider-11.github.io/jahid_portfolio/](https://spider-11.github.io/jahid_portfolio/)
 
 ## Features
 
-- Working sticky navigation with smooth scroll
-- Active nav state on scroll
-- Responsive mobile menu
-- Hero section with CTAs
-- Project cards with working case study modals
-- UX process timeline
-- Skills section
-- Resume snapshot
-- Download CV button
-- GitHub, LinkedIn, email and phone links
-- Contact form that opens the user's email app
-- Responsive desktop, tablet and mobile layout
-- Scroll reveal animations and premium dark UI
+- **Responsive Design:** Seamless experience across desktop, tablet, and mobile devices.
+- **Premium Dark UI:** Modern dark theme with scroll reveal animations and glowing elements.
+- **Project Case Studies:** Interactive modals explaining the details of my mobile app projects.
+- **Interactive Navigation:** Sticky header with active state detection and a mobile hamburger menu.
+- **Sections Included:** Hero, UX Process Timeline, Skills, Projects, Resume Snapshot, and Contact.
+- **Quick Links:** Easy access to download my CV, visit my GitHub/LinkedIn, or send an email.
 
-## How to run
+## Tech Stack
 
-Open `index.html` in your browser.
+- **HTML5:** Semantic structure and content.
+- **CSS3:** Custom styles, CSS variables, flexbox/grid layouts, animations, and media queries.
+- **Vanilla JavaScript:** DOM manipulation, scroll event listeners, and modal handling without heavy frameworks.
 
-## How to customize
+## How to Run Locally
 
-Update:
-- Links in `index.html`
-- Project details in `script.js`
-- Colors and spacing in `styles.css`
-- Resume PDF in `assets/MOHD_JAHID.pdf`
+To view the website locally on your machine, simply clone this repository and open the `index.html` file in your preferred web browser. No build steps or package managers required!
+
+## How to Customize
+
+If you want to use this as a template, you can easily customize the content:
+- Update personal information and links in `index.html`.
+- Modify project details and modal content in `script.js`.
+- Adjust colors, spacing, and typography in `styles.css` using the CSS variables at the top of the file.
+- Replace the profile image and resume PDF in the `assets/` directory.
+
+---
+*Designed & Built by [Mohd Jahid](https://github.com/Spider-11)*
