@@ -132,7 +132,7 @@ const projectData = {
     ]
   },
   trollx: {
-    status: "TestFlight / UAT",
+    status: "Live on Play Store & Apple App Store",
     title: "TrollX — Ride-Hailing Platform (3 Apps)",
     overview: "TrollX is an ambitious, full-scale ride-hailing ecosystem comprising three synchronized applications — Customer, Driver, and Fleet/Admin Panel. The platform delivers a complete Uber-like experience with real-time ride booking, live GPS tracking via Google Maps, fare estimation, in-app wallet, and comprehensive fleet management dashboards. Each app was purpose-built for its specific user role, with distinct UI/UX patterns optimized for that role's workflow. The system uses GetX for reactive state management across all three applications.",
     keyFeatures: [
@@ -144,7 +144,7 @@ const projectData = {
     ],
     contribution: "I was responsible for building the core mechanics across all three applications in this ride-hailing ecosystem. For the Customer App, I developed the complete ride booking flow with real-time driver tracking using Google Maps, fare estimation algorithms, trip history, and integrated payment gateway with wallet functionality. For the Driver App, I built the ride acceptance/rejection system with live timer handling, real-time location updates with navigation support, an earnings and ride history dashboard, and optimized background location services for accurate tracking without excessive battery drain. For the Fleet/Admin Panel, I designed the fleet management system for handling multiple drivers, implemented driver onboarding and approval workflows, built an analytics dashboard tracking ride statistics and revenue, and architected role-based authentication for different admin roles. All three apps use GetX for state management, ensuring reactive data flow and smooth user experience.",
     ux: "I tailored the user experience to the distinct psychological needs of each user role. The Customer App features a minimalist, map-centric booking flow designed for instant gratification — users can book a ride in under 30 seconds. The Driver App was built with high-contrast, distraction-free trip acceptance screens optimized for use while driving, with large buttons, clear status indicators, and audio cues. The timer-based ride acceptance creates urgency without causing stress. The Fleet/Admin Panel provides dense but digestible analytical dashboards where fleet owners can monitor operations at a glance — with color-coded driver statuses, revenue charts, and ride heatmaps. Each app's navigation was designed around its primary use case: quick actions for customers, status-first for drivers, and data-first for admins.",
-    impact: "Currently in TestFlight and UAT testing, with all three apps feature-complete and undergoing final validation before public launch.",
+    impact: "Successfully deployed on both Google Play Store and Apple App Store.",
     tags: ["Flutter", "Dart", "Google Maps", "GetX", "Wallet", "Payments", "Real-time Tracking", "Fleet Management", "Analytics Dashboard", "RBAC", "Background Services", "Multi-app Platform"],
     screenshots: [
       "assets/trollx/Preview%207.png",
