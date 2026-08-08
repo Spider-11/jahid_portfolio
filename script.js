@@ -66,7 +66,6 @@ const projectData = {
     contribution: "I architected and developed the entire Flutter frontend from the ground up. This included building dynamic product listing screens with search and filter capabilities, a sophisticated multi-item cart management system, and a complete order placement workflow. I integrated Razorpay for handling secure transactions across multiple payment modes, built a real-time chat module for direct buyer-seller communication, and implemented a robust authentication system with personalized user profiles. Every screen was built with responsive design principles, ensuring pixel-perfect rendering across Android and iOS devices of all sizes.",
     ux: "The UX strategy centered on eliminating friction at every stage of the shopping journey. I designed the product discovery flow with clear visual hierarchy and contextual call-to-actions that guide users naturally from browsing to purchasing. The cart experience was simplified to show real-time price updates and delivery estimates. The vendor chat feature was designed as a floating, always-accessible element — reducing buyer hesitation by enabling instant clarification on sizing, fabric, and customization options before committing to an order. Empty states, loading skeletons, and error recovery flows were all carefully planned to maintain user confidence throughout.",
     impact: "Successfully launched on Google Play Store, serving real customers with active vendor-buyer transactions and repeat orders.",
-    tags: ["Flutter", "Dart", "Razorpay", "Real-time Chat", "REST APIs", "Authentication", "Responsive UI", "E-commerce", "Android", "iOS"],
     screenshots: [
       "assets/darzi/WhatsApp%20Image%202026-07-06%20at%204.06.46%20PM.jpeg",
       "assets/darzi/WhatsApp%20Image%202026-07-06%20at%204.06.46%20PM%20%281%29.jpeg",
@@ -90,7 +89,6 @@ const projectData = {
     contribution: "I led the complete mobile development lifecycle using Flutter. This involved building complex views for the product catalog with filtering and sorting capabilities, detailed item pages with rental pricing tiers, and a multi-step booking workflow. I integrated REST APIs for dynamic data management including product availability, booking confirmations, and order status tracking. The authentication system supports secure login with profile personalization. I handled the entire deployment process end-to-end, including build optimization, app signing, store asset preparation, and successful publishing on both the Apple App Store and Google Play Store.",
     ux: "The UX was designed around the principle of 'rental transparency.' I created clean, dashboard-style interfaces that prioritize rental status visibility, upcoming payment dates, and subscription timeline clarity. Financial data and pricing breakdowns were structured into highly readable, modular cards that users can scan at a glance. The booking flow was reduced to minimal steps with progress indicators, and I implemented visual feedback at every interaction point — from adding items to confirming a booking — to maintain user confidence throughout the rental process.",
     impact: "Successfully deployed on both Google Play Store and Apple App Store, making it one of the few furniture rental apps available cross-platform with a unified experience.",
-    tags: ["Flutter", "Dart", "REST APIs", "Material Design", "Authentication", "Play Store", "App Store", "Cross-platform", "Responsive UI"],
     screenshots: [
       "assets/frequip/WhatsApp%20Image%202026-07-06%20at%204.17.02%20PM.jpeg",
       "assets/frequip/WhatsApp%20Image%202026-07-06%20at%204.17.02%20PM%20%281%29.jpeg",
@@ -116,7 +114,6 @@ const projectData = {
     contribution: "I engineered a highly reliable mobile application purpose-built for field deployment. I implemented the complete digital bill generation workflow with automated meter rating calculations, real-time payment tracking through API integration, and a high-performance consumer search index capable of handling thousands of records instantly. The backend integration was built with a modular architecture, using reusable UI components that allow the system to scale as new billing features are needed. I also architected the role-based access control (RBAC) system supporting multiple user tiers — field workers, billing clerks, supervisors, and administrators — each with precisely scoped permissions. The app was optimized for reliable operation in low-bandwidth field conditions and successfully deployed on Google Play Store.",
     ux: "Recognizing that field workers operate in challenging environments with limited time and often harsh lighting conditions, I heavily optimized the UI for speed, high contrast readability, and generously sized tap targets. The consumer search interface was designed for instant lookups via partial name or ID matching — a field worker can find any consumer in under 2 seconds. Billing record views were structured for rapid scanning rather than detailed reading, using color-coded status indicators, bold typography for amounts due, and clear visual separation between paid and unpaid records. The bill generation flow was reduced to the absolute minimum steps required, with smart defaults and auto-fill where possible.",
     impact: "Deployed on Google Play Store and actively used by utility department staff for daily billing operations, replacing legacy paper-based systems.",
-    tags: ["Flutter", "Dart", "REST APIs", "RBAC", "Enterprise", "Digital Billing", "Consumer Search", "Field Operations", "Play Store"],
     screenshots: [
       "assets/jalpay/WhatsApp%20Image%202026-07-06%20at%204.16.39%20PM.jpeg",
       "assets/jalpay/WhatsApp%20Image%202026-07-06%20at%204.16.39%20PM%20%281%29.jpeg",
@@ -145,7 +142,6 @@ const projectData = {
     contribution: "I was responsible for building the core mechanics across all three applications in this ride-hailing ecosystem. For the Customer App, I developed the complete ride booking flow with real-time driver tracking using Google Maps, fare estimation algorithms, trip history, and integrated payment gateway with wallet functionality. For the Driver App, I built the ride acceptance/rejection system with live timer handling, real-time location updates with navigation support, an earnings and ride history dashboard, and optimized background location services for accurate tracking without excessive battery drain. For the Fleet/Admin Panel, I designed the fleet management system for handling multiple drivers, implemented driver onboarding and approval workflows, built an analytics dashboard tracking ride statistics and revenue, and architected role-based authentication for different admin roles. All three apps use GetX for state management, ensuring reactive data flow and smooth user experience.",
     ux: "I tailored the user experience to the distinct psychological needs of each user role. The Customer App features a minimalist, map-centric booking flow designed for instant gratification — users can book a ride in under 30 seconds. The Driver App was built with high-contrast, distraction-free trip acceptance screens optimized for use while driving, with large buttons, clear status indicators, and audio cues. The timer-based ride acceptance creates urgency without causing stress. The Fleet/Admin Panel provides dense but digestible analytical dashboards where fleet owners can monitor operations at a glance — with color-coded driver statuses, revenue charts, and ride heatmaps. Each app's navigation was designed around its primary use case: quick actions for customers, status-first for drivers, and data-first for admins.",
     impact: "Successfully deployed on both Google Play Store and Apple App Store.",
-    tags: ["Flutter", "Dart", "Google Maps", "GetX", "Wallet", "Payments", "Real-time Tracking", "Fleet Management", "Analytics Dashboard", "RBAC", "Background Services", "Multi-app Platform"],
     screenshots: [
       "assets/trollx/Preview%207.png",
       "assets/trollx/Preview%208.png",
@@ -177,7 +173,6 @@ const modalContribution = document.getElementById("modalContribution");
 const modalUx = document.getElementById("modalUx");
 const modalImpact = document.getElementById("modalImpact");
 const modalImpactWrap = document.getElementById("modalImpactWrap");
-const modalTags = document.getElementById("modalTags");
 const modalGallery = document.getElementById("modalGallery");
 
 document.querySelectorAll(".project-card").forEach((card) => {
@@ -218,7 +213,6 @@ document.querySelectorAll(".project-card").forEach((card) => {
       modalImpactWrap.style.display = "none";
     }
 
-    modalTags.innerHTML = data.tags.map((tag) => `<span>${tag}</span>`).join("");
     if (modalGallery) {
       modalGallery.innerHTML = data.screenshots
         ? data.screenshots
