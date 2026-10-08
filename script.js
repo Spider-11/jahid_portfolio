@@ -161,6 +161,29 @@ const projectData = {
       "assets/trollx/Preview%20Fleet%2011.png",
       "assets/trollx/Preview%20Fleet%2012.png"
     ]
+  },
+  kalkiyuga: {
+    status: "Live on Google Play Store · Apple App Store under review",
+    title: "Kalkiyuga — 90-Day Spiritual Journey",
+    overview: "Kalkiyuga is a guided spiritual and manifestation app built around a focused 90-day personal practice. Users begin by setting a meaningful wish, choose the path that suits their journey, and build consistency through daily mantra recitation. The experience brings intention setting, guided practice and progress visibility together in one calm, immersive mobile flow.",
+    keyFeatures: [
+      { title: "Wish Setting & Guidance", desc: "Users can define the personal wish they want to focus on, creating a clear intention before beginning their 90-day journey." },
+      { title: "Guided 90-Day Practice", desc: "A structured daily recitation experience helps users return to their chosen mantra and maintain a consistent spiritual routine." },
+      { title: "Choose Your Path", desc: "The onboarding flow lets users select a manifestation path that aligns with their journey before they begin." },
+      { title: "Mantra & Recitation Support", desc: "Dedicated mantra content and daily practice flows make recitation easy to return to, even during a busy day." },
+      { title: "Progress Tracking", desc: "A clear progress view helps users reflect on completed days, build discipline and stay motivated throughout the journey." }
+    ],
+    contribution: "I developed the cross-platform Flutter experience for this guided spiritual journey, shaping the onboarding, authentication, wish-setting, path-selection, daily practice and progress-tracking flows into a cohesive 90-day experience. I focused on making every step feel intentional, from a first-time user's chosen wish through the small daily actions that build consistency.",
+    ux: "The UX uses a focused, contemplative flow rather than a feature-heavy dashboard. Clear prompts help users set an intention without feeling overwhelmed, while the daily recitation and progress views make the next action immediately visible. The visual language pairs high-contrast content with warm spiritual imagery to create an immersive, reassuring experience that encourages users to return each day.",
+    impact: "Available on Google Play Store. The Apple App Store version is currently under review.",
+    screenshots: [
+      "assets/kalkiyuga/welcome.png",
+      "assets/kalkiyuga/login.png",
+      "assets/kalkiyuga/home.png",
+      "assets/kalkiyuga/wish.png",
+      "assets/kalkiyuga/path.png",
+      "assets/kalkiyuga/progress.png"
+    ]
   }
 };
 

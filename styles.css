@@ -711,6 +711,14 @@ h3 {
   object-fit: contain;
 }
 
+.project-media.kalkiyuga {
+  background: #020814;
+}
+
+.project-media.kalkiyuga img {
+  object-fit: contain;
+}
+
 .project-content {
   flex: 1;
   display: flex;
@@ -733,6 +741,12 @@ h3 {
   color: var(--green);
   font-size: 12px;
   font-weight: 800;
+}
+
+.status-review {
+  border-color: rgba(255, 209, 102, 0.28);
+  background: rgba(255, 209, 102, 0.09);
+  color: var(--amber);
 }
 
 .case-btn {
