@@ -1,10 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Mohd Jahid M logo</title>
   <defs>
-    <linearGradient id="brand-gradient" x1="8" y1="6" x2="56" y2="58" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#35d5ff" />
-      <stop offset="1" stop-color="#8b5cf6" />
+    <linearGradient id="mint" x1="13" y1="15" x2="51" y2="49" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#a1ffe0" />
+      <stop offset="1" stop-color="#52dcb4" />
     </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="matrix(0 38 -38 0 32 13)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#173b3a" />
+      <stop offset="1" stop-color="#0b101a" />
+    </radialGradient>
   </defs>
-  <rect width="64" height="64" rx="20" fill="url(#brand-gradient)" />
-  <text x="32" y="42" fill="#fff" font-family="Inter, Arial, sans-serif" font-size="27" font-weight="800" text-anchor="middle">MJ</text>
+  <rect width="64" height="64" rx="18" fill="url(#glow)" />
+  <rect x="4.5" y="4.5" width="55" height="55" rx="15" fill="none" stroke="#b8ffe8" stroke-opacity=".2" />
+  <path d="M13 47V17h8l11 15 11-15h8v30h-7V28L32 43 20 28v19z" fill="url(#mint)" />
 </svg>

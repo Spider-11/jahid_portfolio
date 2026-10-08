@@ -4,11 +4,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Mohd Jahid - UX-focused Flutter Developer portfolio with mobile app projects, skills, and experience." />
+  <meta name="theme-color" content="#080b09" />
   <title>Mohd Jahid | Flutter Developer</title>
-  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg?v=5" />
+  <link rel="mask-icon" href="assets/favicon.svg?v=5" color="#6cf0c5" />
+  <link rel="manifest" href="site.webmanifest?v=2" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600&family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -19,7 +22,7 @@
   <header class="site-header" id="top">
     <nav class="nav-shell" aria-label="Primary navigation">
       <a href="#home" class="brand" aria-label="Go to home">
-        <span class="brand-mark">MJ</span>
+        <span class="brand-mark" aria-hidden="true"><img src="assets/favicon.svg?v=5" alt="" /></span>
         <span>
           <strong>MOHD JAHID</strong>
           <small>UX-focused Flutter Developer</small>
@@ -52,6 +55,7 @@
 
       <div class="container hero-grid">
         <div class="hero-copy reveal">
+          <p class="hero-kicker"><span></span>Flutter developer · India</p>
           <h1>Flutter Developer building <span class="gradient-text">usable mobile apps,</span> not just screens.</h1>
           <p>
             I’m Mohd Jahid, a Flutter developer focused on clean user flows, responsive UI,
@@ -71,37 +75,14 @@
           </div>
         </div>
 
-        <div class="hero-visual reveal delay-1" aria-label="Mobile app mockup visual">
-          <div class="phone phone-back">
-            <div class="notch"></div>
-            <div class="screen-card purple"></div>
-            <div class="screen-line"></div>
-            <div class="screen-line short"></div>
-            <div class="mini-grid"><span></span><span></span><span></span><span></span></div>
+        <div class="hero-visual reveal delay-1" aria-label="Portrait of Mohd Jahid">
+          <div class="hero-frame">
+            <img src="assets/profile.jpg" alt="Mohd Jahid" />
+            <div class="portrait-badge"><span></span>Open to opportunities</div>
           </div>
-
-          <div class="phone phone-main">
-            <div class="notch"></div>
-            <div class="app-top">
-              <span>UX Flow</span>
-              <strong>Ride Booking</strong>
-            </div>
-            <button class="mock-button">Start Flow</button>
-            <div class="flow-list">
-              <span>Choose location</span>
-              <span>Estimate fare</span>
-              <span>Track driver</span>
-            </div>
-            <div class="mini-grid"><span></span><span></span><span></span><span></span></div>
-          </div>
-
-          <div class="floating-card card-one">
-            <strong>REST API</strong>
-            <span>Dynamic app data</span>
-          </div>
-          <div class="floating-card card-two">
-            <strong>BLoC + GetX</strong>
-            <span>Scalable state</span>
+          <div class="hero-note">
+            <span>From idea to release</span>
+            <strong>Simple flows.<br>Solid builds.</strong>
           </div>
         </div>
       </div>

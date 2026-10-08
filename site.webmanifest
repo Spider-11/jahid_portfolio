@@ -1,0 +1,15 @@
+{
+  "name": "Mohd Jahid | Flutter Developer",
+  "short_name": "Mohd Jahid",
+  "icons": [
+    {
+      "src": "assets/favicon.svg?v=5",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "theme_color": "#080b09",
+  "background_color": "#080b09",
+  "display": "standalone"
+}
